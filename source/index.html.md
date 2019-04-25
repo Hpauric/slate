@@ -34,9 +34,17 @@ Of the three style options, assert is the only one that is not chainable. Check 
 
 ###setOwnerCutPerMillion
 
+test
+
+
  | Name | Type |
  | ------------- | ------------- |
  | \_ownerCutPerMillion | uint256 |
+ 
+ 
+ test
+ 
+ 
  
 ###setLegacyNFTAddress
 
