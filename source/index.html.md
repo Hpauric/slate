@@ -37,9 +37,9 @@ Of the three style options, assert is the only one that is not chainable. Check 
 test
 
 
- | Name | Type |
- | ------------- | ------------- |
- | \_ownerCutPerMillion | uint256 |
+| Name | Type |
+| ------------- | ------------- |
+| \_ownerCutPerMillion | uint256 |
  
  
  test
@@ -48,24 +48,24 @@ test
  
 ###setLegacyNFTAddress
 
- | Name | Type |
- | ------------- | ------------- |
- | \_legacyNFTAddress | address |
+| Name | Type |
+| ------------- | ------------- |
+| \_legacyNFTAddress | address |
  
 ###ERC721_Interface
 
- | Name | Type |
- | ------------- | ------------- |
+| Name | Type |
+| ------------- | ------------- |
  
 ###InterfaceId_ValidateFingerprint
 
- | Name | Type |
- | ------------- | ------------- |
+| Name | Type |
+| ------------- | ------------- |
  
 ###unpause
 
- | Name | Type |
- | ------------- | ------------- |
+| Name | Type |
+| ------------- | ------------- |
  
 ###acceptedToken
 
