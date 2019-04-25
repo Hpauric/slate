@@ -32,17 +32,17 @@ Of the three style options, assert is the only one that is not chainable. Check 
 
 ## Marketplace ABI
 
-﻿###setOwnerCutPerMillion
+###setOwnerCutPerMillion
 
  | Name | Type |
  | ------------- | ------------- |
- |_ownerCutPerMillion|uint256|
+ | \_ownerCutPerMillion | uint256 |
  
 ###setLegacyNFTAddress
 
  | Name | Type |
  | ------------- | ------------- |
- |_legacyNFTAddress|address|
+ | \_legacyNFTAddress | address |
  
 ###ERC721_Interface
 
@@ -117,7 +117,7 @@ Of the three style options, assert is the only one that is not chainable. Check 
 
  | Name | Type |
  | ------------- | ------------- |
- |assetId|uint256|
+ | assetId | uint256 |
  
 ###publicationFeeInWei
 
@@ -128,13 +128,13 @@ Of the three style options, assert is the only one that is not chainable. Check 
 
  | Name | Type |
  | ------------- | ------------- |
- |nftAddress|address|
+ | nftAddress | address |
  
 ###setPublicationFee
 
  | Name | Type |
  | ------------- | ------------- |
- |_publicationFee|uint256|
+ | \_publicationFee | uint256 |
  
 ###isMigrated
 
