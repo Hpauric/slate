@@ -30,6 +30,236 @@ The Online Test Suite is a live run of Chai’s test suite. Use it to ensure bro
 The assert style is very similar to node.js’ included assert module, with a bit of extra sugar. 
 Of the three style options, assert is the only one that is not chainable. Check out the [Style Guide](http://chaijs.com/guide/styles/) for a comparison.
 
+## Marketplace ABI
+
+﻿###setOwnerCutPerMillion
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |_ownerCutPerMillion|uint256|
+ 
+###setLegacyNFTAddress
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |_legacyNFTAddress|address|
+ 
+###ERC721_Interface
+
+ | Name | Type |
+ | ------------- | ------------- |
+ 
+###InterfaceId_ValidateFingerprint
+
+ | Name | Type |
+ | ------------- | ------------- |
+ 
+###unpause
+
+ | Name | Type |
+ | ------------- | ------------- |
+ 
+###acceptedToken
+
+ | Name | Type |
+ | ------------- | ------------- |
+ 
+###cancelOrder
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |assetId|uint256|
+ 
+###paused
+
+ | Name | Type |
+ | ------------- | ------------- |
+ 
+###cancelOrder
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |nftAddress|address|
+ 
+###createOrder
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |nftAddress|address|
+ 
+###initialize
+
+ | Name | Type |
+ | ------------- | ------------- |
+ 
+###pause
+
+ | Name | Type |
+ | ------------- | ------------- |
+ 
+###owner
+
+ | Name | Type |
+ | ------------- | ------------- |
+ 
+###safeExecuteOrder
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |nftAddress|address|
+ 
+###ownerCutPerMillion
+
+ | Name | Type |
+ | ------------- | ------------- |
+ 
+###createOrder
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |assetId|uint256|
+ 
+###publicationFeeInWei
+
+ | Name | Type |
+ | ------------- | ------------- |
+ 
+###executeOrder
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |nftAddress|address|
+ 
+###setPublicationFee
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |_publicationFee|uint256|
+ 
+###isMigrated
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |contractName|string|
+ 
+###initialize
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |_acceptedToken|address|
+ 
+###initialize
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |_sender|address|
+ 
+###legacyNFTAddress
+
+ | Name | Type |
+ | ------------- | ------------- |
+ 
+###auctionByAssetId
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |assetId|uint256|
+ 
+###orderByAssetId
+
+ | Name | Type |
+ | ------------- | ------------- |
+ ||address|
+ 
+###executeOrder
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |assetId|uint256|
+ 
+###transferOwnership
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |newOwner|address|
+ 
+###OrderCreated
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |id|bytes32|
+ 
+###OrderSuccessful
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |id|bytes32|
+ 
+###OrderCancelled
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |id|bytes32|
+ 
+###ChangedPublicationFee
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |publicationFee|uint256|
+ 
+###ChangedOwnerCutPerMillion
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |ownerCutPerMillion|uint256|
+ 
+###ChangeLegacyNFTAddress
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |legacyNFTAddress|address|
+ 
+###AuctionCreated
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |id|bytes32|
+ 
+###AuctionSuccessful
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |id|bytes32|
+ 
+###AuctionCancelled
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |id|bytes32|
+ 
+###Pause
+
+ | Name | Type |
+ | ------------- | ------------- |
+ 
+###Unpause
+
+ | Name | Type |
+ | ------------- | ------------- |
+ 
+###OwnershipTransferred
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |previousOwner|address|
+ 
+###Migrated
+
+ | Name | Type |
+ | ------------- | ------------- |
+ |contractName|string|
+
+
 ## Equals Tests
 
 ###equal
